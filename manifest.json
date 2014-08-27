@@ -9,8 +9,16 @@
     "default_icon": "yotpo_logo_round.png",
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "http://*/",
-    "https://*/"
-  ]
+  "content_scripts": [
+        {
+          "matches": ["https://*/*", "http://*/*"],
+          "js": ["js/content.js"],
+          "run_at": "document_idle"
+        }
+  ],
+  "background": {
+      "scripts": ["js/background.js"],
+      "persistent": false
+    },
+  "permissions": ["https://*/*", "http://*/*"]
 }
