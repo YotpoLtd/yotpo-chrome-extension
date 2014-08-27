@@ -4,7 +4,6 @@
   "name": "Yotpo",
   "description": "Yotpo reviews in your browser!",
   "version": "0.1",
-
   "browser_action": {
     "default_icon": "yotpo_logo_round.png",
     "default_popup": "popup.html"
