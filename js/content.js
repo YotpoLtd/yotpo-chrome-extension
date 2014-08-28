@@ -60,4 +60,3 @@ function hasYotpoWidgetV2() {
 }
 
 chrome.runtime.sendMessage(message);
-console.log('yotpot message sent');
