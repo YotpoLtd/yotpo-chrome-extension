@@ -1,0 +1,1 @@
+Yotpo B2C Chrome Extension
