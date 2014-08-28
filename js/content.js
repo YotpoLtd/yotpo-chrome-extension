@@ -9,7 +9,7 @@ if (hasYotpoWidgetV2()) {
 		yotpo_type = 'bottom line';
 	}
 	else if (document.getElementsByClassName('yotpo-main-widget').length > 0) {
-		yotpo_el_selector = 'yotpo bottomLine';
+		yotpo_el_selector = 'yotpo-main-widget';
 		yotpo_type = 'widget'
 	}
 	else
